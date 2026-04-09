@@ -1,0 +1,105 @@
+{
+  "batch": "batch-1",
+  "items": [
+    {
+      "folder": "projects/images",
+      "file_name": "1.jpg",
+      "type": "image"
+    },
+    {
+      "folder": "projects/images",
+      "file_name": "2.jpg",
+      "type": "image"
+    },
+    {
+      "folder": "projects/images",
+      "file_name": "3.jpg",
+      "type": "image"
+    },
+    {
+      "folder": "projects/images",
+      "file_name": "4.jpg",
+      "type": "image"
+    },
+    {
+      "folder": "projects/images",
+      "file_name": "5.jpg",
+      "type": "image"
+    },
+    {
+      "folder": "projects/images",
+      "file_name": "6.jpg",
+      "type": "image"
+    },
+    {
+      "folder": "projects/images",
+      "file_name": "7.jpg",
+      "type": "image"
+    },
+    {
+      "folder": "projects/images",
+      "file_name": "8.jpg",
+      "type": "image"
+    },
+    {
+      "folder": "projects/images",
+      "file_name": "9.jpg",
+      "type": "image"
+    },
+    {
+      "folder": "projects/images",
+      "file_name": "10.jpg",
+      "type": "image"
+    },
+    {
+      "folder": "projects/images",
+      "file_name": "11.jpg",
+      "type": "image"
+    },
+    {
+      "folder": "projects/images",
+      "file_name": "12.jpg",
+      "type": "image"
+    },
+    {
+      "folder": "projects/images",
+      "file_name": "13.jpg",
+      "type": "image"
+    },
+    {
+      "folder": "projects/images",
+      "file_name": "14.jpg",
+      "type": "image"
+    },
+    {
+      "folder": "projects/images",
+      "file_name": "15.jpg",
+      "type": "image"
+    },
+    {
+      "folder": "projects/videos",
+      "file_name": "WhatsApp Video 2026-04-09 at 15.05.54.mp4",
+      "type": "video"
+    },
+    {
+      "folder": "projects/videos",
+      "file_name": "WhatsApp Video 2026-04-09 at 15.06.04.mp4",
+      "type": "video"
+    },
+    {
+      "folder": "projects/videos",
+      "file_name": "WhatsApp Video 2026-04-09 at 15.06.49.mp4",
+      "type": "video"
+    },
+    {
+      "folder": "projects/videos",
+      "file_name": "WhatsApp Video 2026-04-09 at 15.06.49(1).mp4",
+      "type": "video"
+    },
+    {
+      "folder": "projects/videos",
+      "file_name": "WhatsApp Video 2026-04-09 at 15.07.01.mp4",
+      "type": "video"
+    }
+  ]
+}

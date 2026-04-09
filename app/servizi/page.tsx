@@ -31,7 +31,7 @@ const servizi = [
     description:
       "Piani di manutenzione ordinaria e straordinaria per mantenere edifici e impianti efficienti nel tempo.",
     imageUrl:
-      "https://images.unsplash.com/photo-1581093458791-9f3c3900df4b?w=1200&auto=format&fit=crop&q=80",
+      "https://images.unsplash.com/photo-1541888946425-d81bb19240f5?w=1200&auto=format&fit=crop&q=80",
     imageAlt: "Tecnico durante attivita di manutenzione",
   },
   {

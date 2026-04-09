@@ -50,6 +50,20 @@ export default function ContattiPage() {
                 <dt className="text-sm font-semibold uppercase tracking-wider text-neutral-500">Indirizzo</dt>
                 <dd className="mt-1 text-base">Borgo del Naviglio 22, 43121 Parma (PR), Italia</dd>
               </div>
+              <div>
+                <dt className="text-sm font-semibold uppercase tracking-wider text-neutral-500">Orari di lavoro</dt>
+                <dd className="mt-2 text-base">
+                  <ul className="space-y-1">
+                    <li className="flex items-center justify-between gap-4"><span>Lunedi</span><span>07:00 - 18:00</span></li>
+                    <li className="flex items-center justify-between gap-4"><span>Martedi</span><span>07:00 - 18:00</span></li>
+                    <li className="flex items-center justify-between gap-4"><span>Mercoledi</span><span>07:00 - 18:00</span></li>
+                    <li className="flex items-center justify-between gap-4"><span>Giovedi</span><span>07:00 - 18:00</span></li>
+                    <li className="flex items-center justify-between gap-4"><span>Venerdi</span><span>07:00 - 18:00</span></li>
+                    <li className="flex items-center justify-between gap-4"><span>Sabato</span><span>07:00 - 17:00</span></li>
+                    <li className="flex items-center justify-between gap-4"><span>Domenica</span><span>Chiuso</span></li>
+                  </ul>
+                </dd>
+              </div>
             </dl>
           </aside>
 
