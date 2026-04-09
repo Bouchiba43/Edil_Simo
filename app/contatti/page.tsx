@@ -42,7 +42,7 @@ export default function ContattiPage() {
               </div>
               <div>
                 <dt className="text-sm font-semibold uppercase tracking-wider text-neutral-500">Telefono</dt>
-                <dd className="mt-1 text-base">+39 334 3208739</dd>
+                <dd className="mt-1 text-base">+39 320 721 8412</dd>
               </div>
               <div>
                 <dt className="text-sm font-semibold uppercase tracking-wider text-neutral-500">Indirizzo</dt>
