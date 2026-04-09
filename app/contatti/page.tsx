@@ -1,3 +1,5 @@
+import ContactForm from "@/components/ContactForm";
+
 export default function ContattiPage() {
   return (
     <section className="bg-neutral-50 py-16 sm:py-20">
@@ -48,17 +50,6 @@ export default function ContattiPage() {
                 <dt className="text-sm font-semibold uppercase tracking-wider text-neutral-500">Indirizzo</dt>
                 <dd className="mt-1 text-base">Borgo del Naviglio 22, 43121 Parma (PR), Italia</dd>
               </div>
-              <div>
-                <dt className="text-sm font-semibold uppercase tracking-wider text-neutral-500">PEC</dt>
-                <dd className="mt-1 text-base break-all">
-                  <a
-                    href="mailto:edilsimodibouchibaousama@legalmail.it"
-                    className="text-amber-700 transition-colors hover:text-amber-600"
-                  >
-                    edilsimodibouchibaousama@legalmail.it
-                  </a>
-                </dd>
-              </div>
             </dl>
           </aside>
 
@@ -66,54 +57,7 @@ export default function ContattiPage() {
             <h2 className="mb-6 text-2xl font-bold text-neutral-900">
               Invia un messaggio
             </h2>
-
-            <form className="space-y-5">
-              <div>
-                <label htmlFor="nome" className="mb-2 block text-sm font-semibold text-neutral-700">
-                  Nome
-                </label>
-                <input
-                  id="nome"
-                  name="nome"
-                  type="text"
-                  placeholder="Il tuo nome"
-                  className="w-full rounded-md border border-neutral-300 bg-white px-4 py-3 text-neutral-900 outline-none transition-all duration-200 placeholder:text-neutral-400 focus:border-amber-500 focus:ring-2 focus:ring-amber-200"
-                />
-              </div>
-
-              <div>
-                <label htmlFor="email" className="mb-2 block text-sm font-semibold text-neutral-700">
-                  Email
-                </label>
-                <input
-                  id="email"
-                  name="email"
-                  type="email"
-                  placeholder="nome@email.it"
-                  className="w-full rounded-md border border-neutral-300 bg-white px-4 py-3 text-neutral-900 outline-none transition-all duration-200 placeholder:text-neutral-400 focus:border-amber-500 focus:ring-2 focus:ring-amber-200"
-                />
-              </div>
-
-              <div>
-                <label htmlFor="messaggio" className="mb-2 block text-sm font-semibold text-neutral-700">
-                  Messaggio
-                </label>
-                <textarea
-                  id="messaggio"
-                  name="messaggio"
-                  rows={6}
-                  placeholder="Descrivi brevemente il tuo progetto"
-                  className="w-full rounded-md border border-neutral-300 bg-white px-4 py-3 text-neutral-900 outline-none transition-all duration-200 placeholder:text-neutral-400 focus:border-amber-500 focus:ring-2 focus:ring-amber-200"
-                />
-              </div>
-
-              <button
-                type="submit"
-                className="inline-flex items-center justify-center rounded-md bg-neutral-900 px-7 py-3 text-base font-bold text-white transition-all duration-200 hover:-translate-y-0.5 hover:bg-neutral-700 hover:shadow-lg"
-              >
-                Invia richiesta
-              </button>
-            </form>
+            <ContactForm />
           </div>
         </div>
       </div>
