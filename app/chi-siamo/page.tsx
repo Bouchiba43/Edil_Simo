@@ -1,6 +1,20 @@
+import type { Metadata } from "next";
 import Image from "next/image";
 import Link from "next/link";
 import Hero from "@/components/Hero";
+
+export const metadata: Metadata = {
+  title: "Chi Siamo — Edil Simo di Bouchiba Ousama, Parma",
+  description:
+    "Conosci Edil Simo: impresa edile fondata da Bouchiba Ousama a Parma. Affidabilità, qualità e trasparenza in ogni cantiere. Team esperto per muratura, ristrutturazioni e nuove costruzioni.",
+  alternates: { canonical: "https://edil-simo.vercel.app/chi-siamo" },
+  openGraph: {
+    url: "https://edil-simo.vercel.app/chi-siamo",
+    title: "Chi Siamo | Edil Simo — Impresa Edile Parma",
+    description:
+      "Impresa edile fondata da Bouchiba Ousama a Parma. Scopri la nostra storia, i valori e il metodo di lavoro.",
+  },
+};
 
 const valori = [
   {

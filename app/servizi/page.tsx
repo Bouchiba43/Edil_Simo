@@ -1,5 +1,19 @@
+import type { Metadata } from "next";
 import Hero from "@/components/Hero";
 import ServiceCard from "@/components/ServiceCard";
+
+export const metadata: Metadata = {
+  title: "Servizi Edili a Parma — Muratura, Ristrutturazione, Costruzioni",
+  description:
+    "Scopri i servizi di Edil Simo a Parma: muratura, ristrutturazione appartamenti e uffici, nuove costruzioni, lavori pubblici, efficientamento energetico e opere di finitura. Preventivo gratuito.",
+  alternates: { canonical: "https://edil-simo.vercel.app/servizi" },
+  openGraph: {
+    url: "https://edil-simo.vercel.app/servizi",
+    title: "Servizi Edili Parma | Edil Simo — Muratura e Ristrutturazioni",
+    description:
+      "Muratura, ristrutturazioni, nuove costruzioni e lavori pubblici a Parma. Scopri tutti i nostri servizi.",
+  },
+};
 
 const servizi = [
   {

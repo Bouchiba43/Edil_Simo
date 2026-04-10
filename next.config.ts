@@ -10,6 +10,8 @@ const nextConfig: NextConfig = {
         pathname: "/**",
       },
     ],
+    // B2 images are served through our /api/image proxy (same origin), so no
+    // external hostname is required. unoptimized is set per <Image> component.
   },
 };
 

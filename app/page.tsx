@@ -1,7 +1,21 @@
+import type { Metadata } from "next";
 import Image from "next/image";
 import Link from "next/link";
 import Hero from "@/components/Hero";
 import ServiceCard from "@/components/ServiceCard";
+
+export const metadata: Metadata = {
+  title: "Impresa Edile a Parma | Muratura, Ristrutturazioni e Costruzioni",
+  description:
+    "Edil Simo: impresa edile di fiducia a Parma. Costruzioni residenziali, ristrutturazioni complete, muratura professionale. Sopralluogo e preventivo gratuiti. ☎ +39 320 721 8412",
+  alternates: { canonical: "https://edil-simo.vercel.app" },
+  openGraph: {
+    url: "https://edil-simo.vercel.app",
+    title: "Edil Simo | Impresa Edile a Parma — Muratura e Ristrutturazioni",
+    description:
+      "Muratura, ristrutturazioni e nuove costruzioni a Parma. Materiali certificati, tempi rispettati, preventivo gratuito.",
+  },
+};
 
 const homeServices = [
   {
@@ -47,7 +61,7 @@ export default function HomePage() {
         ctaLabel="Contattaci Ora"
         ctaHref="/contatti"
         imageUrl="https://images.unsplash.com/photo-1504307651254-35680f356dfd?w=1600&auto=format&fit=crop&q=80"
-        imageAlt="Cantiere edile Edil Simo Milano"
+        imageAlt="Cantiere edile Edil Simo Parma"
       />
 
       {/* Stats bar */}

@@ -1,4 +1,18 @@
+import type { Metadata } from "next";
 import ContactForm from "@/components/ContactForm";
+
+export const metadata: Metadata = {
+  title: "Contatti — Preventivo Gratuito Impresa Edile Parma",
+  description:
+    "Contatta Edil Simo a Parma per un sopralluogo gratuito e un preventivo personalizzato. ☎ +39 320 721 8412 — Borgo del Naviglio 22, 43121 Parma. Rispondiamo entro 24 ore.",
+  alternates: { canonical: "https://edil-simo.vercel.app/contatti" },
+  openGraph: {
+    url: "https://edil-simo.vercel.app/contatti",
+    title: "Contatti | Edil Simo Parma — Preventivo Gratuito",
+    description:
+      "Contatta la nostra impresa edile a Parma per sopralluogo e preventivo gratuiti. Risposta entro 24 ore.",
+  },
+};
 
 export default function ContattiPage() {
   return (
